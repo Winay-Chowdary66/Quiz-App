@@ -33,7 +33,6 @@ body {
 	color: #000000;
 	padding-top: 50px;
 	min-height: 10vh;
-	
 }
 input[type='radio']:after {
 	width: 14px;
@@ -62,6 +61,14 @@ input[type = "radio"]:checked::after {
 	box-shadow: 5px 0 25px rgb(156, 152, 148);
 	padding: 15px;
 	padding-right: 75px;
+	transition: all 1s ease-in-out;
+	color: #000000;
+	font-weight: 100;
+}
+.quiz-list li label:hover {
+	background-color: rgb(6, 245, 205);
+	font-weight: 600;
+	letter-spacing: 2px;
 }
 .quiz-list li:nth-child(2) {
 	position: absolute;
@@ -97,7 +104,6 @@ button {
 }
 .previous-btn:hover {
 	transform: scale(1, -1);
-
 }
 .previous-btn:focus {
 	background-color: tomato;
@@ -115,7 +121,8 @@ button {
 	border-radius: 50%;
 	font-weight: 100;
 	transition: all 1s;
-	background-color: rgb(255, 255, 255);border: 1px solid rgb(177, 167, 167);
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(177, 167, 167);
 }
 .next-btn:hover {
 	transform: scale(1, -1);
@@ -163,6 +170,7 @@ button {
 .question-number:focus {
 	background-color: coral;
 }
+
 .number-btns {
 	position: absolute;
 	margin-top: -10%;
@@ -171,7 +179,7 @@ button {
 	display: flex;
 	padding-right: 40px;
 }
-.number-btns button:nth-child(1){
+.number-btns button:nth-child(1) {
 	background-color: rgb(86, 255, 80);
 }
 .color {
@@ -184,6 +192,11 @@ button {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	padding:30px;
+	padding: 30px;
 	box-shadow: 5px 5px 20px rgb(77, 74, 74);
+}
+.thinking {
+	position: absolute;
+	right: 21%;
+	top: 8%;
 }
