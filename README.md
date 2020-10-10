@@ -2,3 +2,23 @@ This is a simple Quiz wrote using Java Script that consists of 8 questions, one 
 
 Check out here 👉
     https://winay-chowdary66.github.io/Quiz-App/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Any bugs found,feel free to reach me through mail‼ 🤝🏻
